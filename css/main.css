@@ -1,0 +1,41 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html, button, input, select, textarea { color: #222;}
+html { font-size: 1em; line-height: 1.4;}
+img{ user-select: none; }
+::-moz-selection { background: unset; text-shadow: none;}
+::selection { background: unset; text-shadow: none;}
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0;}
+audio, canvas, img, video { vertical-align: middle;}
+ul,ol,p,h1,h2,h3,h4,h5{  margin:0; padding:0;}
+ul, li{ list-style:none;} 
+a{ text-decoration:none; transition: all 0.60s ease-in-out;}  
+
+/*body{ margin:0; padding:0; font-family: 'MyriadProRegular'; font-size:18px; color:#383838; background:#020913; overflow-x:hidden;
+background-image: linear-gradient(to bottom, #020a14, #040e1a, #071120, #0a1326, #0d152c);}*/
+
+body{ margin:0; padding:0;}
+body * {box-sizing: border-box;}
+
+
+/*font-family: 'Fira Sans', sans-serif;*/
+@font-face {
+    font-family: 'MyriadProRegular';
+    src: url('../fonts/MyriadProRegular.eot');
+    src: url('../fonts/MyriadProRegular.eot') format('embedded-opentype'),
+         url('../fonts/MyriadProRegular.woff2') format('woff2'),
+         url('../fonts/MyriadProRegular.woff') format('woff'),
+         url('../fonts/MyriadProRegular.ttf') format('truetype'),
+         url('../fonts/MyriadProRegular.svg#MyriadProRegular') format('svg');
+}
+
